@@ -54,7 +54,7 @@ namespace Lab5.Data
         {
             //Users[Users.FindIndex(u => u.Id == user.Id)] = user;
             //SaveUsers();
-            pass
+            pass;
         }
 
         public void DeleteUser(int userId)
