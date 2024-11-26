@@ -117,7 +117,7 @@ namespace LibraryService.Tests
             Assert.Equal("New Book Title", updatedBook.Title);
         }
 
-      
+        [Fact]
         public void AddTwoNumbers_ShouldReturnIncorrectSum()
         {
             int result = 2 + 2;
