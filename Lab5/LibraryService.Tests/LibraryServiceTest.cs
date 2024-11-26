@@ -121,7 +121,7 @@ namespace LibraryService.Tests
         public void AddTwoNumbers_ShouldReturnIncorrectSum()
         {
             int result = 2 + 2;
-            Assert.AreEqual(5, result); // This will fail because 2 + 2 is not 5.
+            Assert.Equal(5, result); // This will fail because 2 + 2 is not 5.
         }
 
     }
