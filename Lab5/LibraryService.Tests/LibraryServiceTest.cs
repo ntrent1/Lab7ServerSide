@@ -116,6 +116,14 @@ namespace LibraryService.Tests
             var updatedBook = service.GetAllBooks().Find(b => b.Id == book.Id);
             Assert.Equal("New Book Title", updatedBook.Title);
         }
+
+      
+        public void AddTwoNumbers_ShouldReturnIncorrectSum()
+        {
+            int result = 2 + 2;
+            Assert.AreEqual(5, result); // This will fail because 2 + 2 is not 5.
+        }
+
     }
 
 
