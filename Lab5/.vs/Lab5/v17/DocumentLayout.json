@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F0CDD5-1288-4BF0-9E01-1A7BD46BC3A4}|LibraryService.Tests\\LibraryService.Tests.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\libraryservice.tests\\libraryservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5F0CDD5-1288-4BF0-9E01-1A7BD46BC3A4}|LibraryService.Tests\\LibraryService.Tests.csproj|solutionrelative:libraryservice.tests\\libraryservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\lab5\\pages\\managebooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\pages\\managebooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\lab5\\data\\users.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\data\\users.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\lab5\\pages\\manageusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\pages\\manageusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\lab5\\data\\books.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\data\\books.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\lab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\lab5\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\lab5\\pages\\borrowbooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\pages\\borrowbooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\lab5\\data\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\data\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\lab5\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|c:\\users\\scyth\\downloads\\lab5\\lab5\\lab5\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379FA98C-98D9-41A0-B122-41C474D9690D}|Lab5\\Lab5.csproj|solutionrelative:lab5\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BorrowBooks.razor",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Pages\\BorrowBooks.razor",
+              "RelativeDocumentMoniker": "Lab5\\Pages\\BorrowBooks.razor",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Pages\\BorrowBooks.razor",
+              "RelativeToolTip": "Lab5\\Pages\\BorrowBooks.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T01:09:11.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Books.csv",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Data\\Books.csv",
+              "RelativeDocumentMoniker": "Lab5\\Data\\Books.csv",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Data\\Books.csv",
+              "RelativeToolTip": "Lab5\\Data\\Books.csv",
+              "ViewState": "AgIAAN0DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-11-19T01:09:11.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibraryServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\LibraryService.Tests\\LibraryServiceTest.cs",
+              "RelativeDocumentMoniker": "LibraryService.Tests\\LibraryServiceTest.cs",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\LibraryService.Tests\\LibraryServiceTest.cs",
+              "RelativeToolTip": "LibraryService.Tests\\LibraryServiceTest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:09:11.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Program.cs",
+              "RelativeDocumentMoniker": "Lab5\\Program.cs",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Program.cs",
+              "RelativeToolTip": "Lab5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:09:11.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.csv",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Data\\Users.csv",
+              "RelativeDocumentMoniker": "Lab5\\Data\\Users.csv",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Data\\Users.csv",
+              "RelativeToolTip": "Lab5\\Data\\Users.csv",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-11-19T01:09:11.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageBooks.razor",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Pages\\ManageBooks.razor",
+              "RelativeDocumentMoniker": "Lab5\\Pages\\ManageBooks.razor",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Pages\\ManageBooks.razor",
+              "RelativeToolTip": "Lab5\\Pages\\ManageBooks.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T01:09:11.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageUsers.razor",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Pages\\ManageUsers.razor",
+              "RelativeDocumentMoniker": "Lab5\\Pages\\ManageUsers.razor",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Pages\\ManageUsers.razor",
+              "RelativeToolTip": "Lab5\\Pages\\ManageUsers.razor",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAswFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T01:09:11.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Lab5\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Lab5\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T01:09:11.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Data\\LibraryService.cs",
+              "RelativeDocumentMoniker": "Lab5\\Data\\LibraryService.cs",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Data\\LibraryService.cs",
+              "RelativeToolTip": "Lab5\\Data\\LibraryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:09:11.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Data\\Book.cs",
+              "RelativeDocumentMoniker": "Lab5\\Data\\Book.cs",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Data\\Book.cs",
+              "RelativeToolTip": "Lab5\\Data\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:09:11.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Data\\User.cs",
+              "RelativeDocumentMoniker": "Lab5\\Data\\User.cs",
+              "ToolTip": "C:\\Users\\scyth\\Downloads\\Lab5\\Lab5\\Lab5\\Data\\User.cs",
+              "RelativeToolTip": "Lab5\\Data\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:09:11.204Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+﻿@page "/manage-users"
+@using Lab5.Data
+@inject LibraryService LibraryService
+
+<h3>Manage Users</h3>
+
+<h4>Add User</h4>
+<div>
+    <input @bind="newUser.Id" placeholder="ID" />
+    <input @bind="newUser.Name" placeholder="Name" />
+    <input @bind="newUser.Email" placeholder="Email" />
+    <button @onclick="AddUser">Add</button>
+</div>
+
+<h4>Existing Users</h4>
+@foreach (var user in LibraryService.GetAllUsers())
+
+{
+    <div>
+        <span>@user.Id - @user.Name - @user.Email</span>
+        <button @onclick="() => EditUser(user.Id)">Edit</button>
+        <button @onclick="() => DeleteUser(user.Id)">Delete</button>
+    </div>
+}
+
+@code {
+    private User newUser = new User();
+
+
+
+    protected override void OnInitialized()
+
+    {
+
+        LibraryService.ReadUsers();
+
+    }
+
+
+
+    private void AddUser()
+
+    {
+
+        LibraryService.AddUser(newUser);
+
+        newUser = new User(); // Reset form
+
+    }
+
+
+
+    private void EditUser(int id)
+
+    {
+
+        var user = LibraryService.GetAllUsers().FirstOrDefault(u => u.Id == id);
+
+        if (user != null)
+
+        {
+
+            user.Name = newUser.Name;
+
+            user.Email = newUser.Email;
+
+            LibraryService.EditUser(user);
+
+        }
+
+        newUser = new User(); // Reset form
+
+    }
+
+
+
+    private void DeleteUser(int id)
+
+    {
+
+        LibraryService.DeleteUser(id);
+
+    }
+}

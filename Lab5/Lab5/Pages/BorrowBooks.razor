@@ -1,0 +1,43 @@
+﻿@page "/borrow-books"
+@using Lab5.Data
+@inject LibraryService LibraryService
+
+<h3>Borrow Books</h3>
+
+<div>
+    <input @bind="newBookId" placeholder="Enter Book ID to Borrow" />
+    <button @onclick="BorrowBook">Borrow</button>
+</div>
+
+<h4>Borrowed Books</h4>
+@foreach (var book in LibraryService.GetBorrowedBooks())
+{
+    <div>
+        <span>@book.Id - @book.Title - @book.Author</span>
+        <button @onclick="() => ReturnBook(book)">Return</button>
+    </div>
+}
+
+@code {
+    private int newBookId;
+
+    private void BorrowBook()
+    {
+        var book = LibraryService.GetAllBooks().FirstOrDefault(b => b.Id == newBookId);
+        if (book != null)
+        {
+            LibraryService.BorrowBook(book);
+        }
+        newBookId = 0; // Reset input
+    }
+
+    private void ReturnBook(Book book)
+    {
+        LibraryService.ReturnBook(book);
+    }
+
+    protected override void OnInitialized()
+    {
+        LibraryService.ReadBooks();
+    }
+}

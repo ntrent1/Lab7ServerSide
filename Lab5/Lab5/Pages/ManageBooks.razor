@@ -1,0 +1,84 @@
+﻿@page "/manage-books"
+@using Lab5.Data
+@inject LibraryService LibraryService
+
+<h3>Manage Books</h3>
+
+<h4>Add Book</h4>
+<div>
+    <input @bind="newBook.Id" placeholder="ID" />
+    <input @bind="newBook.Title" placeholder="Title" />
+    <input @bind="newBook.Author" placeholder="Author" />
+    <button @onclick="AddBook">Add</button>
+</div>
+
+<h4>Existing Books</h4>
+@foreach (var book in LibraryService.GetAllBooks())
+
+{
+    <div>
+        <span>@book.Id - @book.Title - @book.Author</span>
+        <button @onclick="() => EditBook(book.Id)">Edit</button>
+        <button @onclick="() => DeleteBook(book.Id)">Delete</button>
+    </div>
+}
+
+@code {
+    private Book newBook = new Book();
+
+
+
+    protected override void OnInitialized()
+
+    {
+
+        LibraryService.ReadBooks();
+
+    }
+
+
+
+    private void AddBook()
+
+    {
+
+        LibraryService.AddBook(newBook);
+
+        newBook = new Book(); // Reset form
+
+    }
+
+
+
+    private void EditBook(int id)
+
+    {
+
+        var book = LibraryService.GetAllBooks().FirstOrDefault(b => b.Id == id);
+
+        if (book != null)
+
+        {
+
+            book.Title = newBook.Title;
+
+            book.Author = newBook.Author;
+
+            LibraryService.EditBook(book);
+
+        }
+
+        newBook = new Book(); // Reset form
+
+    }
+
+
+
+    private void DeleteBook(int id)
+
+    {
+
+        LibraryService.DeleteBook(id);
+
+    }
+}
