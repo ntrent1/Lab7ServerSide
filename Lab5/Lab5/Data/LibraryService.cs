@@ -52,9 +52,9 @@ namespace Lab5.Data
 
         public void EditUser(User user)
         {
-            //Users[Users.FindIndex(u => u.Id == user.Id)] = user;
-            //SaveUsers();
-            return;
+            Users[Users.FindIndex(u => u.Id == user.Id)] = user;
+            SaveUsers();
+            
         }
 
         public void DeleteUser(int userId)
